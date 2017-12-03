@@ -1,0 +1,193 @@
+body {
+    position: relative;
+    padding: 70px;
+  }
+  .navbar {
+    background-color: orange;
+     
+    border: 1px solid transparent;
+  }
+  
+  .navbar-nav {
+    float: right;
+  }
+  
+  
+  .navbar-custom .navbar-nav > li>a {
+    color: black;
+   font-family:"Fredericka the Great";
+    font-size: 20px;
+  }
+  
+  .navbar-custom .navbar-brand {
+    color: black;
+   font-family:"zeyada";
+    font-size: 30px;
+  }
+  .navbar-custom .navbar-brand:hover {
+   
+    color:red;
+  }
+  .navbar-custom .navbar-brand:active {
+  background-color:red;
+    color:white;
+  }
+  .navbar-custom .navbar-brand:focus {
+   background-color:red;
+    color:white;
+  }
+  
+  
+  
+  
+  
+  .navbar-custom .navbar-nav > li > a:hover{
+    text-decoration: none;
+    color:red;
+    background-color: transparent;
+  }
+  
+  .navbar-custom .navbar-nav > li > a:active{
+    color:red;
+    background-color: yellow;
+    
+  }
+  .navbar-custom .navbar-nav > li > a:focus{
+    color:red;
+    background-color: red;
+    
+  }
+  .navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
+      color: white;
+      background-color: red;
+  }
+  
+  #section1,
+  #section2,
+  #section3 {
+   
+  }
+  
+  #section1 {
+    display: flex;
+    justify-content: center;
+    /* align horizontal */
+    align-items: center;
+    margin-top:10px;
+    text-align: center;
+  }
+  
+  #dp {
+    height: 350px;
+    width:350px;
+    border-radius: 50%;
+    border:2px solid red;
+  
+  }
+  em{
+    color:green;
+  }
+  #proj{
+    color:;
+    font-family:zeyada;
+    font-size:30px;
+    text-align:center;
+     
+  }
+  #about {
+    font-family:zeyada;
+    font-size: 30px;
+    color: red;
+  }
+  
+  #section2 {
+    margin-top:50px;
+   border-top:1px dotted red;
+    
+  }
+  
+  h2 {
+    text-align: center;
+    background-color:;
+    color:maroon;
+    font-family:"faster one";
+    font-size:50px;
+  }
+  
+  #section3 {
+    background-color: white;
+    border-top:1px dotted red;
+   
+    
+  }
+  .navbar-toggle{
+    
+    background-color:red;
+    
+  }
+  .navbar-toggle:hover{
+    
+    background-color:yellow;
+    
+  }
+  p{
+    font-size:30px;
+    font-family:pacifico;
+    
+    background-color:;
+    text-align:center;
+    
+    }
+  img{
+    height:150px;
+    width:300px;
+    border-radius:10px;
+    
+    
+  }
+  img:hover{
+    opacity:0.8;
+  }
+  //#tri{
+    padding-right:10px;
+    padding-bottom:10px;
+    border-right:2px solid skyblue;
+    border-bottom:2px solid skyblue;
+  }
+  
+  .f{
+    margin-top:20px;
+  }
+  
+  .x{
+    border:5px solid grey;
+    padding:20px 20px 20px 20px;
+    border-radius:100%;
+    cursor:pointer;
+  }
+  
+  
+  #section3{
+    text-align:center;
+    margin-top:50px;
+  }
+  h3{
+    font-family:shadows into light;
+    margin-top:40px;
+    color:red;
+    font-size:50px;  
+  }
+  .x:hover{
+    color:red;
+     border:5px solid red;
+  }
+  .y{
+    margin-top:30px;
+    
+  }
+  #z{
+    
+    
+    cursor:pointer;
+  }
+  
